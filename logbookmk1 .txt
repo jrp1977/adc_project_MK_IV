@@ -1,0 +1,32 @@
+﻿so this is the mk4 to understand how the logbook links to the clion program. have to run the clion software from my laptop to get the github linkings.so let see how this goes. i have the coding just need to link it to logbook times
+Initial project setup. github file made so how going to my a new file on clion. then using the bash part to set up
+first problem clion on trail so having to work out why not loading
+so git hub link to clion
+git init
+git branch -M main
+git remote add origin https://github.com/jrp1977/adc_project_MK_IV.git
+git add .
+git commit -m "Initial project setup"
+git push -u origin main
+now build some heads
+
+ADC_Project/
+│
+├── main.c
+├── adc.c
+├── adc.h
+├── io.c
+├── io.h
+├── stats.c
+├── stats.h
+
+next step to make the bin file work. to check 10 lines
+
+all code put into c&h now run to check that it not find the file. well time later lost one drive not connected. file in the wrong place
+
+for(int i = 0; i < 10; i++)
+so 10 line worked of raw data
+
+now going to change the 10 for 100 = for(int i = 0; i < 100; i++)
+
+that works so now proof that it is reading the file correctly

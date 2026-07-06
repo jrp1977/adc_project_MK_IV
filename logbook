@@ -1,1 +1,54 @@
+so this is the mk4 to understand how the logbook links to the clion program. have to run the clion software from my laptop to get the github linkings.so let see how this goes. i have the coding just need to link it to logbook times
+Initial project setup. github file made so how going to my a new file on clion. then using the bash part to set up
+first problem clion on trail so having to work out why not loading
+so git hub link to clion
+git init
+git branch -M main
+git remote add origin https://github.com/jrp1977/adc_project_MK_IV.git
+git add .
+git commit -m "Initial project setup"
+git push -u origin main
+now build some heads
+
+ADC_Project/
+│
+├── main.c
+├── adc.c
+├── adc.h
+├── io.c
+├── io.h
+├── stats.c
+├── stats.h
+
+next step to make the bin file work. to check 10 lines
+
+all code put into c&h now run to check that it not find the file. well time later lost one drive not connected. file in the wrong place
+
+for(int i = 0; i < 10; i++)
+so 10 line worked of raw data
+
+now going to change the 10 for 100 = for(int i = 0; i < 100; i++)
+
+that works so now proof that it is reading the file correctly
+
+so now change the code to make a report looking at the 4 x question infomation hurted in the 4 x channels
+
+so going to add analysis, report and fault heading & c
+
+now re wirting the code for each header and commmand.
+
+copy over the code from previson attemps with the help of ai
+
+now all code pasted in correct file i hope.
+
+click relaod project, then build, then run. finger crossed
+
+
+the build has failed errrrrr
+
+let hope the new code in adc.h works.
+
+it moved along to less faults. just something in main c to look at. actual it was the analysis file which not reading corrcetly
+
+so just build and run and succesfully analysis completed with 2 x reports for log analysis results and fault report saved to file
 

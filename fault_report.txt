@@ -1,0 +1,28 @@
+=====================================================
+        ADC SENSOR FAULT REPORT
+=====================================================
+
+SENSOR FAULT | index=403 | time=0.1000 s | channel=3 | flags=0x01 | sequence=403
+SENSOR FAULT | index=407 | time=0.1010 s | channel=3 | flags=0x01 | sequence=407
+OVERVOLTAGE | index=601 | time=0.1500 s | channel=1 | voltage=3.1670 V | sequence=601
+OVERVOLTAGE | index=605 | time=0.1510 s | channel=1 | voltage=3.1614 V | sequence=605
+OVERVOLTAGE | index=609 | time=0.1520 s | channel=1 | voltage=3.1985 V | sequence=609
+SEQUENCE GAP | index=799 | expected=799 | found=801
+UNDERVOLTAGE | index=802 | time=0.2000 s | channel=2 | voltage=0.1048 V | sequence=804
+UNDERVOLTAGE | index=806 | time=0.2010 s | channel=2 | voltage=0.1346 V | sequence=808
+UNDERVOLTAGE | index=810 | time=0.2020 s | channel=2 | voltage=0.1579 V | sequence=812
+UNDERVOLTAGE | index=814 | time=0.2030 s | channel=2 | voltage=0.1442 V | sequence=816
+SENSOR FAULT | index=1003 | time=0.2500 s | channel=3 | flags=0x03 | sequence=1005
+OUT OF RANGE | index=1003 | time=0.2500 s | channel=3 | flags=0x03 | sequence=1005
+OVERVOLTAGE | index=1601 | time=0.4000 s | channel=1 | voltage=3.1203 V | sequence=1603
+OVERVOLTAGE | index=1605 | time=0.4010 s | channel=1 | voltage=3.1501 V | sequence=1607
+UNDERVOLTAGE | index=2002 | time=0.5000 s | channel=2 | voltage=0.1451 V | sequence=2004
+UNDERVOLTAGE | index=2006 | time=0.5010 s | channel=2 | voltage=0.2031 V | sequence=2008
+SENSOR FAULT | index=2403 | time=0.6000 s | channel=3 | flags=0x03 | sequence=2405
+OUT OF RANGE | index=2403 | time=0.6000 s | channel=3 | flags=0x03 | sequence=2405
+SENSOR FAULT | index=2407 | time=0.6010 s | channel=3 | flags=0x01 | sequence=2409
+SENSOR FAULT | index=2411 | time=0.6020 s | channel=3 | flags=0x01 | sequence=2413
+SEQUENCE GAP | index=2496 | expected=2498 | found=2500
+OVERVOLTAGE | index=2801 | time=0.7000 s | channel=1 | voltage=3.1686 V | sequence=2805
+SENSOR FAULT | index=3203 | time=0.8000 s | channel=3 | flags=0x01 | sequence=3207
+UNDERVOLTAGE | index=3402 | time=0.8500 s | channel=2 | voltage=0.1152 V | sequence=3406

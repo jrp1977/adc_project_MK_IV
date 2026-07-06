@@ -1,0 +1,187 @@
+==============================================================
+          ADC SENSOR LOG ANALYSIS REPORT
+==============================================================
+
+Project           : ADC Sensor Log Analysis System
+Module            : UFMFGT-15-1 Programming for Engineers
+Coursework        : Resit Coursework
+Student           : James Pierce
+Student ID        : 23034541
+University        : University of the West of England (UWE)
+File Analysed     : adc_sensor_log.bin
+Report Version    : 1.0
+--------------------------------------------------------------
+Generated on      : 06/07/2026
+Generated at      : 11:44:30
+--------------------------------------------------------------
+
+HEADER INFORMATION
+------------------
+Version           : 1
+Channels          : 4
+Records           : 4000
+Sample Rate       : 1000 Hz
+
+SEQUENCE INTEGRITY
+------------------
+Sequence Gaps     : 2
+
+==============================================================
+CHANNEL 0
+==============================================================
+
+Voltage Statistics
+------------------
+Samples            : 1000
+Mean Voltage       : 1.6496 V
+RMS Voltage        : 1.8550 V
+Minimum Voltage    : 0.4384 V
+Maximum Voltage    : 2.8584 V
+Std Deviation      : 0.8484 V
+
+Temperature Statistics
+----------------------
+Mean Temperature   : 27.6 C
+Minimum Temperature: 23.9 C
+Maximum Temperature: 71.1 C
+
+Fault Summary
+-------------
+Overvoltage Events : 0
+Undervoltage Events: 0
+Sensor Fault Flags : 0
+Out Of Range Flags : 0
+
+Voltage Histogram
+-----------------
+0.00 - 0.33 V : 0
+0.33 - 0.66 V : 193
+0.66 - 0.99 V : 122
+0.99 - 1.32 V : 98
+1.32 - 1.65 V : 89
+1.65 - 1.98 V : 85
+1.98 - 2.31 V : 98
+2.31 - 2.64 V : 121
+2.64 - 2.97 V : 194
+2.97 - 3.30 V : 0
+
+==============================================================
+CHANNEL 1
+==============================================================
+
+Voltage Statistics
+------------------
+Samples            : 1000
+Mean Voltage       : 1.5059 V
+RMS Voltage        : 1.6678 V
+Minimum Voltage    : 0.4892 V
+Maximum Voltage    : 3.1985 V
+Std Deviation      : 0.7168 V
+
+Temperature Statistics
+----------------------
+Mean Temperature   : 27.6 C
+Minimum Temperature: 24.1 C
+Maximum Temperature: 73.9 C
+
+Fault Summary
+-------------
+Overvoltage Events : 6
+Undervoltage Events: 0
+Sensor Fault Flags : 0
+Out Of Range Flags : 0
+
+Voltage Histogram
+-----------------
+0.00 - 0.33 V : 0
+0.33 - 0.66 V : 182
+0.66 - 0.99 V : 147
+0.99 - 1.32 V : 113
+1.32 - 1.65 V : 107
+1.65 - 1.98 V : 107
+1.98 - 2.31 V : 141
+2.31 - 2.64 V : 197
+2.64 - 2.97 V : 0
+2.97 - 3.30 V : 6
+
+==============================================================
+CHANNEL 2
+==============================================================
+
+Voltage Statistics
+------------------
+Samples            : 1000
+Mean Voltage       : 1.7861 V
+RMS Voltage        : 1.9526 V
+Minimum Voltage    : 0.1048 V
+Maximum Voltage    : 2.9075 V
+Std Deviation      : 0.7888 V
+
+Temperature Statistics
+----------------------
+Mean Temperature   : 27.6 C
+Minimum Temperature: 24.0 C
+Maximum Temperature: 73.5 C
+
+Fault Summary
+-------------
+Overvoltage Events : 0
+Undervoltage Events: 7
+Sensor Fault Flags : 0
+Out Of Range Flags : 0
+
+Voltage Histogram
+-----------------
+0.00 - 0.33 V : 7
+0.33 - 0.66 V : 0
+0.66 - 0.99 V : 237
+0.99 - 1.32 V : 119
+1.32 - 1.65 V : 100
+1.65 - 1.98 V : 93
+1.98 - 2.31 V : 100
+2.31 - 2.64 V : 120
+2.64 - 2.97 V : 224
+2.97 - 3.30 V : 0
+
+==============================================================
+CHANNEL 3
+==============================================================
+
+Voltage Statistics
+------------------
+Samples            : 1000
+Mean Voltage       : 1.3997 V
+RMS Voltage        : 1.5376 V
+Minimum Voltage    : 0.4851 V
+Maximum Voltage    : 2.3128 V
+Std Deviation      : 0.6364 V
+
+Temperature Statistics
+----------------------
+Mean Temperature   : 27.6 C
+Minimum Temperature: 24.2 C
+Maximum Temperature: 70.8 C
+
+Fault Summary
+-------------
+Overvoltage Events : 0
+Undervoltage Events: 0
+Sensor Fault Flags : 7
+Out Of Range Flags : 2
+
+Voltage Histogram
+-----------------
+0.00 - 0.33 V : 0
+0.33 - 0.66 V : 194
+0.66 - 0.99 V : 157
+0.99 - 1.32 V : 121
+1.32 - 1.65 V : 119
+1.65 - 1.98 V : 130
+1.98 - 2.31 V : 277
+2.31 - 2.64 V : 2
+2.64 - 2.97 V : 0
+2.97 - 3.30 V : 0
+
+==============================================================
+END OF REPORT
+==============================================================

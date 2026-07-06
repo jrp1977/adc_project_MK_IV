@@ -1,8 +1,8 @@
-//
-// Created by Student on 03/07/2026.
-//
+#ifndef STATS_H
+#define STATS_H
 
-#ifndef ADC_PROJECT_MK_IV_STATS_H
-#define ADC_PROJECT_MK_IV_STATS_H
+double calculateMean(double sum, int count);
+double calculateRMS(double sumSquares, int count);
+double calculateStdDev(double sum, double sumSquares, int count);
 
-#endif //ADC_PROJECT_MK_IV_STATS_H
+#endif

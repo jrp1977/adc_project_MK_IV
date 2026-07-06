@@ -1,8 +1,16 @@
-//
-// Created by Student on 03/07/2026.
-//
+#ifndef IO_H
+#define IO_H
 
-#ifndef ADC_PROJECT_MK_IV_IO_H
-#define ADC_PROJECT_MK_IV_IO_H
+#include <stdio.h>
+#include <stdint.h>
 
-#endif //ADC_PROJECT_MK_IV_IO_H
+#include "adc.h"
+
+int readHeader(FILE *fp, ADCHeader *header);
+int readRecords(FILE *fp, ADCSample *records, uint32_t count);
+
+int loadADCFile(const char *filename,
+                ADCHeader *header,
+                ADCSample **records);
+
+#endif
